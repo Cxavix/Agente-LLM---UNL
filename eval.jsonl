@@ -1,0 +1,79 @@
+{"id": "NOMBRE_A211", "query": "¿Cómo se llama el laboratorio A211?", "gold": "Laboratorio Integrado de Manufactura."}
+{"id": "NOMBRE_A212", "query": "¿Cómo se llama el laboratorio A212?", "gold": "Laboratorio de Energia y Fluidos."}
+{"id": "NOMBRE_A221", "query": "¿Cómo se llama el laboratorio A221?", "gold": "Laboratorio de Desarrollo de Software."}
+{"id": "NOMBRE_A222", "query": "¿Cómo se llama el laboratorio A222?", "gold": "Laboratorio de Automatización y Control."}
+{"id": "NOMBRE_A223", "query": "¿Cómo se llama el laboratorio A223?", "gold": "Laboratorio de Sistemas Automotrices."}
+{"id": "NOMBRE_A224", "query": "¿Cómo se llama el laboratorio A224?", "gold": "Laboratorio de Instalaciones Eléctricas."}
+{"id": "NOMBRE_A225", "query": "¿Cómo se llama el laboratorio A225?", "gold": "Laboratorio de Computación Aplicada."}
+{"id": "NOMBRE_A231", "query": "¿Cómo se llama el laboratorio A231?", "gold": "Laboratorio de Cómputo, Redes y Sistemas Operativos."}
+{"id": "NOMBRE_A232", "query": "¿Cómo se llama el laboratorio A232?", "gold": "Laboratorio de Antenas y Telecomunicaciones."}
+{"id": "NOMBRE_A234", "query": "¿Cómo se llama el laboratorio A234?", "gold": "Laboratorio de Electrónica."}
+{"id": "NOMBRE_DEP_P4", "query": "¿Cómo se llama el departamento del piso 4?", "gold": "Departamento de Investigacion e Innovación Tecnológica - I2TEC."}
+{"id": "NOMBRE_SALA_ELEC", "query": "¿Cómo se llama la sala donde se dicta docencia de Electromecánica y Eletrónica y Telecomunicaciones?", "gold": "Sala de Docencia-Carrera de Electromecánica y Eletrónica y Telecomunicaciones."}
+
+{"id": "UBICACION_A211", "query": "¿Dónde queda el laboratorio A211?", "gold": "Bloque A2, piso 1, lado derecho."}
+{"id": "UBICACION_A212", "query": "¿Dónde queda el laboratorio A212?", "gold": "Bloque A2, piso 1, lado derecho."}
+{"id": "UBICACION_A21B1", "query": "¿Dónde queda el baño A21B1?", "gold": "Bloque A2, piso 1, lado izquierdo."}
+{"id": "UBICACION_A21B2", "query": "¿Dónde queda el baño A21B2?", "gold": "Bloque A2, piso 1, lado izquierdo."}
+{"id": "UBICACION_A221", "query": "¿Dónde queda el laboratorio A221?", "gold": "Bloque A2, piso 2, lado derecho."}
+{"id": "UBICACION_A225", "query": "¿Dónde queda el laboratorio A225?", "gold": "Bloque A2, piso 2, lado izquierdo."}
+{"id": "UBICACION_A231", "query": "¿Dónde queda el laboratorio A231?", "gold": "Bloque A2, piso 3, lado derecho."}
+{"id": "UBICACION_A232", "query": "¿Dónde queda el laboratorio A232?", "gold": "Bloque A2, piso 3, lado derecho."}
+{"id": "UBICACION_A234", "query": "¿Dónde queda el laboratorio A234?", "gold": "Bloque A2, piso 3, lado izquierdo."}
+{"id": "UBICACION_A24B1", "query": "¿Dónde queda el baño A24B1?", "gold": "Bloque A2, piso 4, lado izquierdo."}
+{"id": "UBICACION_LAB_ELECT", "query": "¿Dónde queda el Laboratorio de Electrónica?", "gold": "Bloque A2, piso 3, lado izquierdo."}
+{"id": "UBICACION_DEP_I2TEC", "query": "¿Dónde queda el Departamento de Investigacion e Innovación Tecnológica - I2TEC?", "gold": "Bloque A2, piso 4, lado izquierdo."}
+
+{"id": "RUTA_A211", "query": "¿Cómo llego al laboratorio A211?", "gold": "Ve al Bloque A2 y sube al piso 1, lado derecho."}
+{"id": "RUTA_A212", "query": "¿Cómo llego al laboratorio A212?", "gold": "Ve al Bloque A2 y sube al piso 1, lado derecho."}
+{"id": "RUTA_A21B1", "query": "¿Cómo llego al baño A21B1?", "gold": "Ve al Bloque A2 y sube al piso 1, lado izquierdo."}
+{"id": "RUTA_A21B2", "query": "¿Cómo llego al baño A21B2?", "gold": "Ve al Bloque A2 y sube al piso 1, lado izquierdo."}
+{"id": "RUTA_A221", "query": "¿Cómo llego al laboratorio A221?", "gold": "Ve al Bloque A2 y sube al piso 2, lado derecho."}
+{"id": "RUTA_A225", "query": "¿Cómo llego al laboratorio A225?", "gold": "Ve al Bloque A2 y sube al piso 2, lado izquierdo."}
+{"id": "RUTA_A231", "query": "¿Cómo llego al laboratorio A231?", "gold": "Ve al Bloque A2 y sube al piso 3, lado derecho."}
+{"id": "RUTA_A232", "query": "¿Cómo llego al laboratorio A232?", "gold": "Ve al Bloque A2 y sube al piso 3, lado derecho."}
+{"id": "RUTA_A234", "query": "¿Cómo llego al laboratorio A234?", "gold": "Ve al Bloque A2 y sube al piso 3, lado izquierdo."}
+{"id": "RUTA_A24B1", "query": "¿Cómo llego al baño A24B1?", "gold": "Ve al Bloque A2 y sube al piso 4, lado izquierdo."}
+
+{"id": "ENCARGADO_A211", "query": "¿Quién es el encargado del laboratorio A211?", "gold": "Bryan Jimenez."}
+{"id": "ENCARGADO_A212", "query": "¿Quién es el encargado del laboratorio A212?", "gold": "Bryan Jimenez."}
+{"id": "ENCARGADO_A221", "query": "¿Quién es el encargado del laboratorio A221?", "gold": "Ing. Luis Sinche."}
+{"id": "ENCARGADO_A222", "query": "¿Quién es el encargado del laboratorio A222?", "gold": "Ing. Carlos Conza."}
+{"id": "ENCARGADO_A223", "query": "¿Quién es el encargado del laboratorio A223?", "gold": "Ing. Jaime Cabrera."}
+{"id": "ENCARGADO_A224", "query": "¿Quién es el encargado del laboratorio A224?", "gold": "Ing. Pedro Garcia."}
+{"id": "ENCARGADO_A225", "query": "¿Quién es el encargado del laboratorio A225?", "gold": "Ing. Luis Sinche."}
+{"id": "ENCARGADO_A231", "query": "¿Quién es el encargado del laboratorio A231?", "gold": "Ing. Luis Sinche."}
+{"id": "ENCARGADO_A232", "query": "¿Quién es el encargado del laboratorio A232?", "gold": "Ing. Alba Vargaz."}
+{"id": "ENCARGADO_A234", "query": "¿Quién es el encargado del laboratorio A234?", "gold": "Ing. Luis Yunca."}
+
+{"id": "LABS_LUIS_SINCHE", "query": "¿Qué laboratorios están a cargo del Ing. Luis Sinche?", "gold": "A221, A225, A231."}
+{"id": "LABS_BRYAN_JIMENEZ", "query": "¿Qué laboratorios están a cargo de Bryan Jimenez?", "gold": "A211, A212."}
+{"id": "LABS_LUIS_YUNCA", "query": "¿Qué espacios están a cargo del Ing. Luis Yunca?", "gold": "A234, A235."}
+
+{"id": "EQUIP_A225_LISTA", "query": "¿Qué equipamiento tiene el laboratorio A225?", "gold": "Servidores; Escritorios."}
+{"id": "EQUIP_A231_LISTA", "query": "¿Qué equipamiento tiene el laboratorio A231?", "gold": "Escritorios; Computadoras; Proyector."}
+{"id": "EQUIP_A232_LISTA", "query": "¿Qué equipamiento tiene el laboratorio A232?", "gold": "Mesas; Escritorios; Proyector; Computadoras."}
+{"id": "EQUIP_A233_LISTA", "query": "¿Qué equipamiento tiene el laboratorio A233?", "gold": "Mesas; Escritorios; Proyector."}
+{"id": "EQUIP_A234_LISTA", "query": "¿Qué equipamiento tiene el laboratorio A234?", "gold": "Mesas; Escritorios; Proyector."}
+
+{"id": "EQUIP_A225_SERV_SI", "query": "¿En el laboratorio A225 hay servidores?", "gold": "Sí."}
+{"id": "EQUIP_A225_COMP_NO", "query": "¿En el laboratorio A225 hay computadoras?", "gold": "No."}
+{"id": "EQUIP_A231_PROY_SI", "query": "¿En el laboratorio A231 hay proyector?", "gold": "Sí."}
+{"id": "EQUIP_A231_SERV_NO", "query": "¿En el laboratorio A231 hay servidores?", "gold": "No."}
+{"id": "EQUIP_A232_MESAS_SI", "query": "¿En el laboratorio A232 hay mesas?", "gold": "Sí."}
+{"id": "EQUIP_A211_COMP_NO", "query": "¿En el laboratorio A211 hay computadoras?", "gold": "No."}
+
+{"id": "FACULTAD_A221", "query": "¿En qué facultad está el laboratorio A221?", "gold": "Facultad de Energías Renovables y Recursos Naturales."}
+{"id": "FACULTAD_A231", "query": "¿En qué facultad está el laboratorio A231?", "gold": "Facultad de Energías Renovables y Recursos Naturales."}
+
+{"id": "BLOQUE_A234", "query": "¿En qué bloque se encuentra el laboratorio A234?", "gold": "Bloque A2."}
+{"id": "BLOQUE_LAB_ELECT", "query": "¿En qué bloque se encuentra el Laboratorio de Electrónica?", "gold": "Bloque A2."}
+{"id": "BLOQUE_DEP_I2TEC", "query": "¿En qué bloque se encuentra el Departamento de Investigacion e Innovación Tecnológica - I2TEC?", "gold": "Bloque A2."}
+
+{"id": "PISO_LAB_SOFT", "query": "¿En qué piso se encuentra el laboratorio de Desarrollo de Software?", "gold": "Piso 2."}
+{"id": "PISO_DEP_I2TEC", "query": "¿En qué piso se encuentra el departamento de I2TEC?", "gold": "Piso 4."}
+{"id": "PISO_SALA_A214", "query": "¿En qué piso se encuentra la sala A214?", "gold": "Piso 1."}
+
+{"id": "ASCENSOR_A22B1_SI", "query": "¿El baño A22B1 tiene ascensor cerca?", "gold": "Sí."}
+{"id": "ASCENSOR_A236_SI", "query": "¿El cuarto A236 tiene ascensor cerca?", "gold": "Sí."}
+{"id": "ASCENSOR_A221_NO", "query": "¿El laboratorio A221 tiene ascensor cerca?", "gold": "No."}

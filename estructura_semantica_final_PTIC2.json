@@ -1,0 +1,1773 @@
+{
+  "meta": {
+    "version": 1,
+    "generated_at": "2025-09-24 22:25:35",
+    "source": "estructura_semantica_final_PTIC2.json"
+  },
+  "universidades": [
+    {
+      "id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "nombre": "Universidad Nacional de Loja"
+    }
+  ],
+  "facultades": [
+    {
+      "id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "nombre": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-"
+    }
+  ],
+  "bloques": [
+    {
+      "id": "BL-A2",
+      "codigo": "A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN"
+    }
+  ],
+  "pisos": [
+    {
+      "id": "BL-A2-P1",
+      "numero": 1,
+      "bloque_id": "BL-A2"
+    },
+    {
+      "id": "BL-A2-P2",
+      "numero": 2,
+      "bloque_id": "BL-A2"
+    },
+    {
+      "id": "BL-A2-P3",
+      "numero": 3,
+      "bloque_id": "BL-A2"
+    },
+    {
+      "id": "BL-A2-P4",
+      "numero": 4,
+      "bloque_id": "BL-A2"
+    }
+  ],
+  "espacios": [
+    {
+      "id": "BL-A2-?",
+      "tipo": "Oficina",
+      "nombre": "Oficina de Monitoreo",
+      "codigo": "?",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "1",
+        "direccionRelativa": "Junto a la entrada principal",
+        "direccionOrientativa": "Lado derecho",
+        "ConCapacidad": 2,
+        "AsignadoACarrera": "Automotriz",
+        "ConEquipamiento": [
+          "Escritorio",
+          "Computadora"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Anibal González",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ericka González",
+            "rol": ""
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "monitoreo",
+        "oficina de monitoreo",
+        "oficinademonitoreo"
+      ],
+      "nombre_norm": "oficina de monitoreo",
+      "Tipo": "Oficina",
+      "ConNombre": "Oficina de Monitoreo",
+      "ConCodigo": "?",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A211",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio Integrado de Manufactura",
+      "codigo": "A211",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "1",
+        "direccionRelativa": "Junto a la entrada principal, siguiente a la oficina de Monitoreo y al inicio del pasillo",
+        "direccionOrientativa": "Lado derecho",
+        "ConCapacidad": 2,
+        "AsignadoACarrera": "Electromecánica",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Bryan Jimenez",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "integrado",
+        "integrado manufactura",
+        "laboratorio integrado de manufactura",
+        "laboratoriointegradodemanufactura",
+        "manufactura"
+      ],
+      "nombre_norm": "laboratorio integrado de manufactura",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio Integrado de Manufactura",
+      "ConCodigo": "A211",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A212",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Energia y Fluidos",
+      "codigo": "A212",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "2",
+        "direccionRelativa": "Al frente de la sala A213, A214 y siguiente al laboratorio Integrado de Manufactura",
+        "direccionOrientativa": "Lado derecho",
+        "ConCapacidad": 50,
+        "AsignadoACarrera": "Electromecánica",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Bryan Jimenez",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "energia",
+        "energia fluidos",
+        "energia y fluidos",
+        "fluidos",
+        "laboratorio de energia",
+        "laboratorio de energia y fluidos",
+        "laboratoriodeenergiayfluidos"
+      ],
+      "nombre_norm": "laboratorio de energia y fluidos",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Energia y Fluidos",
+      "ConCodigo": "A212",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A213",
+      "tipo": "Sala",
+      "nombre": "Sala de Docencia-Carrera de Electromecánica y Eletrónica y Telecomunicaciones",
+      "codigo": "A213",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "3",
+        "direccionRelativa": "Al frente del laboratorio A212 y antes de la Sala A214",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 10,
+        "AsignadoACarrera": [
+          "Electromecánica",
+          "Electrónica",
+          "Telecomunicaciones"
+        ],
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Jorge Carrión",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ing. Julio Cuenca",
+            "rol": ""
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "docencia carrera de electromecanica y eletronica y telecomunicaciones",
+        "electromecanica",
+        "electromecanica eletronica telecomunicaciones",
+        "eletronica",
+        "sala de docencia carrera de electromecanica",
+        "sala de docencia carrera de electromecanica y eletronica y telecomunicaciones",
+        "saladedocenciacarreradeelectromecanicayeletronicaytelecomunicaciones",
+        "telecomunicaciones"
+      ],
+      "nombre_norm": "sala de docencia-carrera de electromecanica y eletronica y telecomunicaciones",
+      "Tipo": "Sala",
+      "ConNombre": "Sala de Docencia-Carrera de Electromecánica y Eletrónica y Telecomunicaciones",
+      "ConCodigo": "A213",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A214",
+      "tipo": "Sala",
+      "nombre": "Sala de Docencia",
+      "codigo": "A214",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "4",
+        "direccionRelativa": "Al frente del laboratorio A212 y despues de la sala A213",
+        "direccionOrientativa": "Lado izquierdo",
+        "ConCapacidad": 10,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Carlos Samaniego",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ing. Gonzalo Riofrio",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ing. Darwin Tapia",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ing. Jose Cuenca",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ing. Byron Solorzano",
+            "rol": ""
+          },
+          {
+            "ConNombre": "Ing. Kruzcaya Pacheco",
+            "rol": ""
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "docencia",
+        "sala de docencia",
+        "saladedocencia"
+      ],
+      "nombre_norm": "sala de docencia",
+      "Tipo": "Sala",
+      "ConNombre": "Sala de Docencia",
+      "ConCodigo": "A214",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A21B1",
+      "tipo": "Baño",
+      "nombre": "S.S.H.H Mixto",
+      "codigo": "A21B1",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "B1",
+        "direccionRelativa": "Antes de las escaleras, despues de la sala A214 y al frente del ascensor",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 1,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "baño",
+        "baño mixto",
+        "bañomixto",
+        "mixto"
+      ],
+      "nombre_norm": "s.s.h.h mixto",
+      "Tipo": "Baño",
+      "ConNombre": "S.S.H.H Mixto",
+      "ConCodigo": "A21B1",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A21B2",
+      "tipo": "Baño",
+      "nombre": "S.S.H.H Capacidades Especiales",
+      "codigo": "A21B2",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "B2",
+        "direccionRelativa": "Por el Pasillo pequeño al lado de las escaleras, despues de la sala A214 y al frente del ascensor",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 1,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "baño",
+        "baño capacidades especiales",
+        "bañocapacidadesespeciales",
+        "capacidades",
+        "especiales"
+      ],
+      "nombre_norm": "s.s.h.h capacidades especiales",
+      "Tipo": "Baño",
+      "ConNombre": "S.S.H.H Capacidades Especiales",
+      "ConCodigo": "A21B2",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-EscPrin",
+      "tipo": "InfraestructuraVertical",
+      "nombre": "Escalera principal",
+      "codigo": "EscPrin",
+      "piso_id": "BL-A2-P1",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "subtipo": "Escalera",
+        "campus": "A",
+        "direccionRelativa": "al final del pasillo",
+        "cercaDe": [
+          "Ascensor",
+          "A21B2"
+        ],
+        "conectaCon": [
+          1,
+          2
+        ],
+        "ConReferenciaVisual": "Entrada principal",
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 1
+      },
+      "aliases": [
+        "escalera",
+        "escalera principal",
+        "escaleraprincipal",
+        "principal"
+      ],
+      "nombre_norm": "escalera principal",
+      "Tipo": "InfraestructuraVertical",
+      "ConNombre": "Escalera principal",
+      "ConCodigo": "EscPrin",
+      "piso": "1",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A221",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Desarrollo de Software",
+      "codigo": "A221",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "1",
+        "direccionRelativa": "Cerca de la puerta de vidrio blindado y al frente del laboratorio A225",
+        "direccionOrientativa": "Lado Derecho",
+        "ConCapacidad": 20,
+        "AsignadoACarrera": "Computación",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Luis Sinche",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "desarrollo",
+        "desarrollo de software",
+        "desarrollo software",
+        "laboratorio de desarrollo de software",
+        "laboratoriodedesarrollodesoftware",
+        "software"
+      ],
+      "nombre_norm": "laboratorio de desarrollo de software",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Desarrollo de Software",
+      "ConCodigo": "A221",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A222",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Automatización y Control",
+      "codigo": "A222",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "2",
+        "direccionRelativa": "Siguiente al laboratorio de Desarrollo de Software A221 y al frente del laboratorio A224",
+        "direccionOrientativa": "Lado Derecho",
+        "ConCapacidad": 20,
+        "AsignadoACarrera": "Electromecánica",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Carlos Conza",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "automatizacion",
+        "automatizacion control",
+        "automatizacion y control",
+        "control",
+        "laboratorio de automatizacion",
+        "laboratorio de automatizacion y control",
+        "laboratoriodeautomatizacionycontrol"
+      ],
+      "nombre_norm": "laboratorio de automatizacion y control",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Automatización y Control",
+      "ConCodigo": "A222",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A223",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Sistemas Automotrices",
+      "codigo": "A223",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "3",
+        "direccionRelativa": "Puerta final del pasillo",
+        "direccionOrientativa": "No Aplica",
+        "ConCapacidad": 30,
+        "AsignadoACarrera": "Automotriz",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Jaime Cabrera",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "automotrices",
+        "laboratorio de sistemas automotrices",
+        "laboratoriodesistemasautomotrices",
+        "sistemas",
+        "sistemas automotrices"
+      ],
+      "nombre_norm": "laboratorio de sistemas automotrices",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Sistemas Automotrices",
+      "ConCodigo": "A223",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A224",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Instalaciones Eléctricas",
+      "codigo": "A224",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "4",
+        "direccionRelativa": "Al frente del laboratorio A222",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 30,
+        "AsignadoACarrera": "Automotriz",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Pedro Garcia",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "electricas",
+        "instalaciones",
+        "instalaciones electricas",
+        "laboratorio de instalaciones electricas",
+        "laboratoriodeinstalacioneselectricas"
+      ],
+      "nombre_norm": "laboratorio de instalaciones electricas",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Instalaciones Eléctricas",
+      "ConCodigo": "A224",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A225",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Computación Aplicada",
+      "codigo": "A225",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "5",
+        "direccionRelativa": "Cerca y despues de la puerta de vidrio blindado y al frente del laboratorio A221",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 10,
+        "AsignadoACarrera": "Computación",
+        "ConEquipamiento": [
+          "Servidores",
+          "Escritorios"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Luis Sinche",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "aplicada",
+        "computacion",
+        "computacion aplicada",
+        "laboratorio de computacion aplicada",
+        "laboratoriodecomputacionaplicada"
+      ],
+      "nombre_norm": "laboratorio de computacion aplicada",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Computación Aplicada",
+      "ConCodigo": "A225",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A22B1",
+      "tipo": "Baño",
+      "nombre": "S.S.H.H Mixto",
+      "codigo": "A22B1",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "B1",
+        "direccionRelativa": "Cerca y antes de la puerta de vidrio blindado, siguiente al ascensor",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 10,
+        "AsignadoACarrera": "Computación",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "baño",
+        "baño mixto",
+        "bañomixto",
+        "mixto"
+      ],
+      "nombre_norm": "s.s.h.h mixto",
+      "Tipo": "Baño",
+      "ConNombre": "S.S.H.H Mixto",
+      "ConCodigo": "A22B1",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A226",
+      "tipo": "Cuarto",
+      "nombre": "Cuarto de Utileria",
+      "codigo": "A226",
+      "piso_id": "BL-A2-P2",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "6",
+        "direccionRelativa": "Siguiente al ascensor y antes del baño A22B1",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 10,
+        "AsignadoACarrera": "Computación",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 2
+      },
+      "aliases": [
+        "cuarto",
+        "cuarto de utileria",
+        "cuarto utileria",
+        "cuartodeutileria",
+        "utileria"
+      ],
+      "nombre_norm": "cuarto de utileria",
+      "Tipo": "Cuarto",
+      "ConNombre": "Cuarto de Utileria",
+      "ConCodigo": "A226",
+      "piso": "2",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A231",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Cómputo, Redes y Sistemas Operativos",
+      "codigo": "A231",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "1",
+        "direccionRelativa": "Pasando la puerta de vidrio blindado",
+        "direccionOrientativa": "Lado Derecho",
+        "ConCapacidad": 30,
+        "AsignadoACarrera": "Computación",
+        "ConEquipamiento": [
+          "Escritorios",
+          "Computadoras",
+          "Proyector"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Luis Sinche",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "computo",
+        "computo redes",
+        "computo redes sistemas",
+        "computo redes y sistemas operativos",
+        "laboratorio de computo redes",
+        "laboratorio de computo redes y sistemas operativos",
+        "laboratorio de redes",
+        "laboratoriodecomputoredesysistemasoperativos",
+        "operativos",
+        "redes",
+        "sistemas",
+        "sistemas operativos"
+      ],
+      "nombre_norm": "laboratorio de computo redes y sistemas operativos",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Cómputo, Redes y Sistemas Operativos",
+      "ConCodigo": "A231",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A232",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Antenas y Telecomunicaciones",
+      "codigo": "A232",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "2",
+        "direccionRelativa": "Siguiente al laboratorio de Cómputo, Redes y Sistemas Operativos",
+        "direccionOrientativa": "Lado Derecho",
+        "ConCapacidad": 30,
+        "AsignadoACarrera": "Telecomunicaciones",
+        "ConEquipamiento": [
+          "Mesas",
+          "Escritorios",
+          "Proyector",
+          "Computadoras"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Alba Vargaz",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "antenas",
+        "antenas telecomunicaciones",
+        "antenas y telecomunicaciones",
+        "laboratorio de antenas",
+        "laboratorio de antenas y telecomunicaciones",
+        "laboratoriodeantenasytelecomunicaciones",
+        "telecomunicaciones"
+      ],
+      "nombre_norm": "laboratorio de antenas y telecomunicaciones",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Antenas y Telecomunicaciones",
+      "ConCodigo": "A232",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A233",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Telemática",
+      "codigo": "A233",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "3",
+        "direccionRelativa": "Final del Pasillo",
+        "direccionOrientativa": "",
+        "ConCapacidad": 30,
+        "AsignadoACarrera": "Telecomunicaciones",
+        "ConEquipamiento": [
+          "Mesas",
+          "Escritorios",
+          "Proyector"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Miguel González",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "laboratorio de telematica",
+        "laboratoriodetelematica",
+        "telematica"
+      ],
+      "nombre_norm": "laboratorio de telematica",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Telemática",
+      "ConCodigo": "A233",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A234",
+      "tipo": "Laboratorio",
+      "nombre": "Laboratorio de Electrónica",
+      "codigo": "A234",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "4",
+        "direccionRelativa": "Antes de llegar al final del pasillo",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 20,
+        "AsignadoACarrera": "Telecomunicaciones",
+        "ConEquipamiento": [
+          "Mesas",
+          "Escritorios",
+          "Proyector"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Luis Yunca",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "electronica",
+        "laboratorio de electronica",
+        "laboratoriodeelectronica"
+      ],
+      "nombre_norm": "laboratorio de electronica",
+      "Tipo": "Laboratorio",
+      "ConNombre": "Laboratorio de Electrónica",
+      "ConCodigo": "A234",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A235",
+      "tipo": "Oficina",
+      "nombre": "Oficina de Técnicos del Laboratorio de Electrónica",
+      "codigo": "A235",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "5",
+        "direccionRelativa": "Pasando la puerta de vidrio blindado",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 10,
+        "AsignadoACarrera": "Telecomunicaciones",
+        "ConEquipamiento": [
+          "Escritorios"
+        ],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Luis Yunca",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "electronica",
+        "oficina de tecnicos del laboratorio de electronica",
+        "oficinadetecnicosdellaboratoriodeelectronica",
+        "tecnicos",
+        "tecnicos del laboratorio de electronica",
+        "tecnicos electronica"
+      ],
+      "nombre_norm": "oficina de tecnicos del laboratorio de electronica",
+      "Tipo": "Oficina",
+      "ConNombre": "Oficina de Técnicos del Laboratorio de Electrónica",
+      "ConCodigo": "A235",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A23B1",
+      "tipo": "Baño",
+      "nombre": "S.S.H.H Mixto",
+      "codigo": "A23B1",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "B1",
+        "direccionRelativa": "Antes de la puerta de seguridad de vidrio blindado",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 1,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "baño",
+        "baño mixto",
+        "bañomixto",
+        "mixto"
+      ],
+      "nombre_norm": "s.s.h.h mixto",
+      "Tipo": "Baño",
+      "ConNombre": "S.S.H.H Mixto",
+      "ConCodigo": "A23B1",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A236",
+      "tipo": "Ducto",
+      "nombre": "Ducto",
+      "codigo": "A236",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "6",
+        "direccionRelativa": "Entre el ascensor y el baño A23B1",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 0,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "ducto"
+      ],
+      "nombre_norm": "ducto",
+      "Tipo": "Ducto",
+      "ConNombre": "Ducto",
+      "ConCodigo": "A236",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A237",
+      "tipo": "Cuarto",
+      "nombre": "Bodega",
+      "codigo": "A237",
+      "piso_id": "BL-A2-P3",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "7",
+        "direccionRelativa": "Siguiente al ascensor",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 0,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 3
+      },
+      "aliases": [
+        "bodega"
+      ],
+      "nombre_norm": "bodega",
+      "Tipo": "Cuarto",
+      "ConNombre": "Bodega",
+      "ConCodigo": "A237",
+      "piso": "3",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-DEPARTAMENTO-DE-INVESTIG",
+      "tipo": "Departamento",
+      "nombre": "Departamento de Investigacion e Innovación Tecnológica - I2TEC",
+      "codigo": "No Aplica",
+      "piso_id": "BL-A2-P4",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "No Aplica",
+        "direccionRelativa": "Al frente de la puerta que da hacia la terraza del edificio",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 20,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [
+          {
+            "ConNombre": "Ing. Pabel Merino",
+            "rol": "Encargado"
+          },
+          {
+            "ConNombre": "Ing. Jhonatan González",
+            "rol": "Encargado"
+          }
+        ],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 4
+      },
+      "aliases": [
+        "departamento de investigacion e innovacion tecnologica - i2tec",
+        "departamentodeinvestigacioneinnovaciontecnologica-i2tec",
+        "i2tec",
+        "innovacion",
+        "investigacion",
+        "investigacion e innovacion tecnologica - i2tec",
+        "investigacion innovacion tecnologica",
+        "tecnologica",
+        "iot"
+      ],
+      "nombre_norm": "departamento de investigacion e innovacion tecnologica - i2tec",
+      "Tipo": "Departamento",
+      "ConNombre": "Departamento de Investigacion e Innovación Tecnológica - I2TEC",
+      "ConCodigo": "No Aplica",
+      "piso": "4",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    },
+    {
+      "id": "BL-A2-A24B1",
+      "tipo": "Baño",
+      "nombre": "S.S.H.H Mixto",
+      "codigo": "A24B1",
+      "piso_id": "BL-A2-P4",
+      "bloque_id": "BL-A2",
+      "facultad_id": "FAC-FACULTAD-DE-ENERGIAS-REN",
+      "universidad_id": "UNI-UNIVERSIDAD-NACIONAL-DE-",
+      "attrs": {
+        "campus": "A",
+        "ambiente": "B1",
+        "direccionRelativa": "Siguiente al ascensor",
+        "direccionOrientativa": "Lado Izquierdo",
+        "ConCapacidad": 1,
+        "AsignadoACarrera": "No Aplica",
+        "ConEquipamiento": [],
+        "Personal": [],
+        "universidad": "Universidad Nacional de Loja",
+        "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+        "bloque": "A2",
+        "piso": 4
+      },
+      "aliases": [
+        "baño",
+        "baño mixto",
+        "bañomixto",
+        "mixto"
+      ],
+      "nombre_norm": "s.s.h.h mixto",
+      "Tipo": "Baño",
+      "ConNombre": "S.S.H.H Mixto",
+      "ConCodigo": "A24B1",
+      "piso": "4",
+      "bloque": "A2",
+      "facultad": "Facultad de Energías Renovables y Recursos Naturales",
+      "universidad": "Universidad Nacional de Loja"
+    }
+  ],
+  "personas": [
+    {
+      "id": "PER-ANIBAL-GONZALEZ",
+      "nombre": "Anibal González",
+      "rol": "",
+      "espacio_id": "BL-A2-?"
+    },
+    {
+      "id": "PER-ERICKA-GONZALEZ",
+      "nombre": "Ericka González",
+      "rol": "",
+      "espacio_id": "BL-A2-?"
+    },
+    {
+      "id": "PER-BRYAN-JIMENEZ",
+      "nombre": "Bryan Jimenez",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A211"
+    },
+    {
+      "id": "PER-BRYAN-JIMENEZ",
+      "nombre": "Bryan Jimenez",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A212"
+    },
+    {
+      "id": "PER-ING-JORGE-CARRION",
+      "nombre": "Ing. Jorge Carrión",
+      "rol": "",
+      "espacio_id": "BL-A2-A213"
+    },
+    {
+      "id": "PER-ING-JULIO-CUENCA",
+      "nombre": "Ing. Julio Cuenca",
+      "rol": "",
+      "espacio_id": "BL-A2-A213"
+    },
+    {
+      "id": "PER-ING-CARLOS-SAMANIEGO",
+      "nombre": "Ing. Carlos Samaniego",
+      "rol": "",
+      "espacio_id": "BL-A2-A214"
+    },
+    {
+      "id": "PER-ING-GONZALO-RIOFRIO",
+      "nombre": "Ing. Gonzalo Riofrio",
+      "rol": "",
+      "espacio_id": "BL-A2-A214"
+    },
+    {
+      "id": "PER-ING-DARWIN-TAPIA",
+      "nombre": "Ing. Darwin Tapia",
+      "rol": "",
+      "espacio_id": "BL-A2-A214"
+    },
+    {
+      "id": "PER-ING-JOSE-CUENCA",
+      "nombre": "Ing. Jose Cuenca",
+      "rol": "",
+      "espacio_id": "BL-A2-A214"
+    },
+    {
+      "id": "PER-ING-BYRON-SOLORZANO",
+      "nombre": "Ing. Byron Solorzano",
+      "rol": "",
+      "espacio_id": "BL-A2-A214"
+    },
+    {
+      "id": "PER-ING-KRUZCAYA-PACHECO",
+      "nombre": "Ing. Kruzcaya Pacheco",
+      "rol": "",
+      "espacio_id": "BL-A2-A214"
+    },
+    {
+      "id": "PER-ING-LUIS-SINCHE",
+      "nombre": "Ing. Luis Sinche",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A221"
+    },
+    {
+      "id": "PER-ING-CARLOS-CONZA",
+      "nombre": "Ing. Carlos Conza",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A222"
+    },
+    {
+      "id": "PER-ING-JAIME-CABRERA",
+      "nombre": "Ing. Jaime Cabrera",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A223"
+    },
+    {
+      "id": "PER-ING-PEDRO-GARCIA",
+      "nombre": "Ing. Pedro Garcia",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A224"
+    },
+    {
+      "id": "PER-ING-LUIS-SINCHE",
+      "nombre": "Ing. Luis Sinche",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A225"
+    },
+    {
+      "id": "PER-ING-LUIS-SINCHE",
+      "nombre": "Ing. Luis Sinche",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A231"
+    },
+    {
+      "id": "PER-ING-ALBA-VARGAZ",
+      "nombre": "Ing. Alba Vargaz",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A232"
+    },
+    {
+      "id": "PER-ING-MIGUEL-GONZALEZ",
+      "nombre": "Ing. Miguel González",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A233"
+    },
+    {
+      "id": "PER-ING-LUIS-YUNCA",
+      "nombre": "Ing. Luis Yunca",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A234"
+    },
+    {
+      "id": "PER-ING-LUIS-YUNCA",
+      "nombre": "Ing. Luis Yunca",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-A235"
+    },
+    {
+      "id": "PER-ING-PABEL-MERINO",
+      "nombre": "Ing. Pabel Merino",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+    },
+    {
+      "id": "PER-ING-JHONATAN-GONZALEZ",
+      "nombre": "Ing. Jhonatan González",
+      "rol": "Encargado",
+      "espacio_id": "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+    }
+  ],
+  "indices": {
+    "by_code": {
+      "?": "BL-A2-?",
+      "A211": "BL-A2-A211",
+      "A212": "BL-A2-A212",
+      "A213": "BL-A2-A213",
+      "A214": "BL-A2-A214",
+      "A21B1": "BL-A2-A21B1",
+      "A21B2": "BL-A2-A21B2",
+      "EscPrin": "BL-A2-EscPrin",
+      "A221": "BL-A2-A221",
+      "A222": "BL-A2-A222",
+      "A223": "BL-A2-A223",
+      "A224": "BL-A2-A224",
+      "A225": "BL-A2-A225",
+      "A22B1": "BL-A2-A22B1",
+      "A226": "BL-A2-A226",
+      "A231": "BL-A2-A231",
+      "A232": "BL-A2-A232",
+      "A233": "BL-A2-A233",
+      "A234": "BL-A2-A234",
+      "A235": "BL-A2-A235",
+      "A23B1": "BL-A2-A23B1",
+      "A236": "BL-A2-A236",
+      "A237": "BL-A2-A237",
+      "A24B1": "BL-A2-A24B1"
+    },
+    "by_alias": {
+      "monitoreo": [
+        "BL-A2-?"
+      ],
+      "oficina de monitoreo": [
+        "BL-A2-?"
+      ],
+      "oficinademonitoreo": [
+        "BL-A2-?"
+      ],
+      "integrado": [
+        "BL-A2-A211"
+      ],
+      "integrado manufactura": [
+        "BL-A2-A211"
+      ],
+      "laboratorio integrado de manufactura": [
+        "BL-A2-A211"
+      ],
+      "laboratoriointegradodemanufactura": [
+        "BL-A2-A211"
+      ],
+      "manufactura": [
+        "BL-A2-A211"
+      ],
+      "energia": [
+        "BL-A2-A212"
+      ],
+      "energia fluidos": [
+        "BL-A2-A212"
+      ],
+      "energia y fluidos": [
+        "BL-A2-A212"
+      ],
+      "fluidos": [
+        "BL-A2-A212"
+      ],
+      "laboratorio de energia": [
+        "BL-A2-A212"
+      ],
+      "laboratorio de energia y fluidos": [
+        "BL-A2-A212"
+      ],
+      "laboratoriodeenergiayfluidos": [
+        "BL-A2-A212"
+      ],
+      "docencia carrera de electromecanica y eletronica y telecomunicaciones": [
+        "BL-A2-A213"
+      ],
+      "electromecanica": [
+        "BL-A2-A213"
+      ],
+      "electromecanica eletronica telecomunicaciones": [
+        "BL-A2-A213"
+      ],
+      "eletronica": [
+        "BL-A2-A213"
+      ],
+      "sala de docencia carrera de electromecanica": [
+        "BL-A2-A213"
+      ],
+      "sala de docencia carrera de electromecanica y eletronica y telecomunicaciones": [
+        "BL-A2-A213"
+      ],
+      "saladedocenciacarreradeelectromecanicayeletronicaytelecomunicaciones": [
+        "BL-A2-A213"
+      ],
+      "telecomunicaciones": [
+        "BL-A2-A213",
+        "BL-A2-A232"
+      ],
+      "docencia": [
+        "BL-A2-A214"
+      ],
+      "sala de docencia": [
+        "BL-A2-A214"
+      ],
+      "saladedocencia": [
+        "BL-A2-A214"
+      ],
+      "baño": [
+        "BL-A2-A21B1",
+        "BL-A2-A21B2",
+        "BL-A2-A22B1",
+        "BL-A2-A23B1",
+        "BL-A2-A24B1"
+      ],
+      "baño mixto": [
+        "BL-A2-A21B1",
+        "BL-A2-A22B1",
+        "BL-A2-A23B1",
+        "BL-A2-A24B1"
+      ],
+      "bañomixto": [
+        "BL-A2-A21B1",
+        "BL-A2-A22B1",
+        "BL-A2-A23B1",
+        "BL-A2-A24B1"
+      ],
+      "mixto": [
+        "BL-A2-A21B1",
+        "BL-A2-A22B1",
+        "BL-A2-A23B1",
+        "BL-A2-A24B1"
+      ],
+      "baño capacidades especiales": [
+        "BL-A2-A21B2"
+      ],
+      "bañocapacidadesespeciales": [
+        "BL-A2-A21B2"
+      ],
+      "capacidades": [
+        "BL-A2-A21B2"
+      ],
+      "especiales": [
+        "BL-A2-A21B2"
+      ],
+      "escalera": [
+        "BL-A2-EscPrin"
+      ],
+      "escalera principal": [
+        "BL-A2-EscPrin"
+      ],
+      "escaleraprincipal": [
+        "BL-A2-EscPrin"
+      ],
+      "principal": [
+        "BL-A2-EscPrin"
+      ],
+      "desarrollo": [
+        "BL-A2-A221"
+      ],
+      "desarrollo de software": [
+        "BL-A2-A221"
+      ],
+      "desarrollo software": [
+        "BL-A2-A221"
+      ],
+      "laboratorio de desarrollo de software": [
+        "BL-A2-A221"
+      ],
+      "laboratoriodedesarrollodesoftware": [
+        "BL-A2-A221"
+      ],
+      "software": [
+        "BL-A2-A221"
+      ],
+      "automatizacion": [
+        "BL-A2-A222"
+      ],
+      "automatizacion control": [
+        "BL-A2-A222"
+      ],
+      "automatizacion y control": [
+        "BL-A2-A222"
+      ],
+      "control": [
+        "BL-A2-A222"
+      ],
+      "laboratorio de automatizacion": [
+        "BL-A2-A222"
+      ],
+      "laboratorio de automatizacion y control": [
+        "BL-A2-A222"
+      ],
+      "laboratoriodeautomatizacionycontrol": [
+        "BL-A2-A222"
+      ],
+      "automotrices": [
+        "BL-A2-A223"
+      ],
+      "laboratorio de sistemas automotrices": [
+        "BL-A2-A223"
+      ],
+      "laboratoriodesistemasautomotrices": [
+        "BL-A2-A223"
+      ],
+      "sistemas": [
+        "BL-A2-A223",
+        "BL-A2-A231"
+      ],
+      "sistemas automotrices": [
+        "BL-A2-A223"
+      ],
+      "electricas": [
+        "BL-A2-A224"
+      ],
+      "instalaciones": [
+        "BL-A2-A224"
+      ],
+      "instalaciones electricas": [
+        "BL-A2-A224"
+      ],
+      "laboratorio de instalaciones electricas": [
+        "BL-A2-A224"
+      ],
+      "laboratoriodeinstalacioneselectricas": [
+        "BL-A2-A224"
+      ],
+      "aplicada": [
+        "BL-A2-A225"
+      ],
+      "computacion": [
+        "BL-A2-A225"
+      ],
+      "computacion aplicada": [
+        "BL-A2-A225"
+      ],
+      "laboratorio de computacion aplicada": [
+        "BL-A2-A225"
+      ],
+      "laboratoriodecomputacionaplicada": [
+        "BL-A2-A225"
+      ],
+      "cuarto": [
+        "BL-A2-A226"
+      ],
+      "cuarto de utileria": [
+        "BL-A2-A226"
+      ],
+      "cuarto utileria": [
+        "BL-A2-A226"
+      ],
+      "cuartodeutileria": [
+        "BL-A2-A226"
+      ],
+      "utileria": [
+        "BL-A2-A226"
+      ],
+      "computo": [
+        "BL-A2-A231"
+      ],
+      "computo redes": [
+        "BL-A2-A231"
+      ],
+      "computo redes sistemas": [
+        "BL-A2-A231"
+      ],
+      "computo redes y sistemas operativos": [
+        "BL-A2-A231"
+      ],
+      "laboratorio de computo redes": [
+        "BL-A2-A231"
+      ],
+      "laboratorio de computo redes y sistemas operativos": [
+        "BL-A2-A231"
+      ],
+      "laboratorio de redes": [
+        "BL-A2-A231"
+      ],
+      "laboratoriodecomputoredesysistemasoperativos": [
+        "BL-A2-A231"
+      ],
+      "operativos": [
+        "BL-A2-A231"
+      ],
+      "redes": [
+        "BL-A2-A231"
+      ],
+      "sistemas operativos": [
+        "BL-A2-A231"
+      ],
+      "antenas": [
+        "BL-A2-A232"
+      ],
+      "antenas telecomunicaciones": [
+        "BL-A2-A232"
+      ],
+      "antenas y telecomunicaciones": [
+        "BL-A2-A232"
+      ],
+      "laboratorio de antenas": [
+        "BL-A2-A232"
+      ],
+      "laboratorio de antenas y telecomunicaciones": [
+        "BL-A2-A232"
+      ],
+      "laboratoriodeantenasytelecomunicaciones": [
+        "BL-A2-A232"
+      ],
+      "laboratorio de telematica": [
+        "BL-A2-A233"
+      ],
+      "laboratoriodetelematica": [
+        "BL-A2-A233"
+      ],
+      "telematica": [
+        "BL-A2-A233"
+      ],
+      "electronica": [
+        "BL-A2-A234",
+        "BL-A2-A235"
+      ],
+      "laboratorio de electronica": [
+        "BL-A2-A234"
+      ],
+      "laboratoriodeelectronica": [
+        "BL-A2-A234"
+      ],
+      "oficina de tecnicos del laboratorio de electronica": [
+        "BL-A2-A235"
+      ],
+      "oficinadetecnicosdellaboratoriodeelectronica": [
+        "BL-A2-A235"
+      ],
+      "tecnicos": [
+        "BL-A2-A235"
+      ],
+      "tecnicos del laboratorio de electronica": [
+        "BL-A2-A235"
+      ],
+      "tecnicos electronica": [
+        "BL-A2-A235"
+      ],
+      "ducto": [
+        "BL-A2-A236"
+      ],
+      "bodega": [
+        "BL-A2-A237"
+      ],
+      "departamento de investigacion e innovacion tecnologica - i2tec": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "departamentodeinvestigacioneinnovaciontecnologica-i2tec": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "i2tec": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "innovacion": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "investigacion": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "investigacion e innovacion tecnologica - i2tec": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "investigacion innovacion tecnologica": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ],
+      "tecnologica": [
+        "BL-A2-DEPARTAMENTO-DE-INVESTIG"
+      ]
+    },
+    "person_to_space": {
+      "anibal gonzalez": "BL-A2-?",
+      "ericka gonzalez": "BL-A2-?",
+      "bryan jimenez": "BL-A2-A212",
+      "ing. jorge carrion": "BL-A2-A213",
+      "ing. julio cuenca": "BL-A2-A213",
+      "ing. carlos samaniego": "BL-A2-A214",
+      "ing. gonzalo riofrio": "BL-A2-A214",
+      "ing. darwin tapia": "BL-A2-A214",
+      "ing. jose cuenca": "BL-A2-A214",
+      "ing. byron solorzano": "BL-A2-A214",
+      "ing. kruzcaya pacheco": "BL-A2-A214",
+      "ing. luis sinche": "BL-A2-A225",
+      "ing. carlos conza": "BL-A2-A222",
+      "ing. jaime cabrera": "BL-A2-A223",
+      "ing. pedro garcia": "BL-A2-A224",
+      "ing. alba vargaz": "BL-A2-A232",
+      "ing. miguel gonzalez": "BL-A2-A233",
+      "ing. luis yunca": "BL-A2-A235",
+      "ing. pabel merino": "BL-A2-DEPARTAMENTO-DE-INVESTIG",
+      "ing. jhonatan gonzalez": "BL-A2-DEPARTAMENTO-DE-INVESTIG",
+      "ing luis sinche": "BL-A2-A225",
+      "luis sinche": "BL-A2-A225"
+    },
+    "space_to_people": {
+      "BL-A2-?": [
+        "anibal gonzalez",
+        "ericka gonzalez"
+      ],
+      "BL-A2-A211": [
+        "bryan jimenez"
+      ],
+      "BL-A2-A212": [
+        "bryan jimenez"
+      ],
+      "BL-A2-A213": [
+        "ing. jorge carrion",
+        "ing. julio cuenca"
+      ],
+      "BL-A2-A214": [
+        "ing. carlos samaniego",
+        "ing. gonzalo riofrio",
+        "ing. darwin tapia",
+        "ing. jose cuenca",
+        "ing. byron solorzano",
+        "ing. kruzcaya pacheco"
+      ],
+      "BL-A2-A221": [
+        "ing. luis sinche"
+      ],
+      "BL-A2-A222": [
+        "ing. carlos conza"
+      ],
+      "BL-A2-A223": [
+        "ing. jaime cabrera"
+      ],
+      "BL-A2-A224": [
+        "ing. pedro garcia"
+      ],
+      "BL-A2-A225": [
+        "ing. luis sinche"
+      ],
+      "BL-A2-A231": [
+        "ing. luis sinche"
+      ],
+      "BL-A2-A232": [
+        "ing. alba vargaz"
+      ],
+      "BL-A2-A233": [
+        "ing. miguel gonzalez"
+      ],
+      "BL-A2-A234": [
+        "ing. luis yunca"
+      ],
+      "BL-A2-A235": [
+        "ing. luis yunca"
+      ],
+      "BL-A2-DEPARTAMENTO-DE-INVESTIG": [
+        "ing. pabel merino",
+        "ing. jhonatan gonzalez"
+      ]
+    }
+  }
+}
