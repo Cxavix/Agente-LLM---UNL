@@ -1,1 +1,9 @@
 # Agente-LLM---UNL
+Es necesario descargar el modelo mistral - (mistral-7b-instruct-v0.2.Q4_K_M.gguf) de la página de huggingface
+Link: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+
+Para un mejor rendimiento es recomendable usar la gpu (de ser disponible) de la maquina, revisando e instalando la tecnologia cuda compatible con los drivers, modelo de tarjeta gráfica y version de python.
+Se incluyen dos batchs que instalan las dependencias minimas sin apoyo de gpu y las completas que incluyen las complementarias tal cual el entorno de ejecucion original.
+Recomendable mas no obligatorio usar Anaconda con su entorno jupyter.
+Se incluyen lineas de instalacion de dependencias minimas dentro del ipynb.
+Unicamente es necesario ejecutar el primero bloque de codigo para el funcionamiento del agente.
