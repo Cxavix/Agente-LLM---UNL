@@ -11,4 +11,4 @@ Link: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mi
 
 -Se incluyen lineas de instalación de dependencias minimas dentro del ipynb.
 
--Unicamente es necesario ejecutar el primero bloque de codigo del ipynb para el funcionamiento del agente dentro.
+-Unicamente es necesario ejecutar el primero bloque de código del ipynb para el funcionamiento del agente.
