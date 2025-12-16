@@ -3,7 +3,7 @@ Es necesario descargar el modelo mistral - (mistral-7b-instruct-v0.2.Q4_K_M.gguf
 
 Link: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
 
--Para un mejor rendimiento es recomendable usar la gpu (de ser disponible) de la máquina, revisando e instalando la tecnologia cuda compatible con los drivers, modelo de tarjeta gráfica y versión de python.
+-Para un mejor rendimiento es recomendable usar la GPU (de ser disponible) de la máquina, revisando e instalando la tecnologia cuda compatible con los drivers, modelo de tarjeta gráfica y versión de python.
 
 -Se incluyen dos batchs que instalan las dependencias mínimas sin apoyo de gpu y las completas que incluyen las complementarias tal cual el entorno de ejecución original.
 
