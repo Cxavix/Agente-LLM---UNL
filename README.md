@@ -7,8 +7,9 @@ Link: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mi
 
 -Se incluyen dos batchs que instalan las dependencias mínimas sin apoyo de gpu y las completas que incluyen las complementarias tal cual el entorno de ejecución original.
 
--Recomendable mas no obligatorio usar Anaconda con su entorno jupyter.
+-Recomendable mas no obligatorio usar Anaconda con su entorno jupyter y trabajar en una única carpeta dentro windows.
 
 -Se incluyen lineas de instalación de dependencias minimas dentro del AgenteLLM_Final.ipynb.
 
 -Unicamente es necesario ejecutar el primero bloque de código del AgenteLLM_Final.ipynb para el funcionamiento del agente.
+
