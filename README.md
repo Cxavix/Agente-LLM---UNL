@@ -9,6 +9,6 @@ Link: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mi
 
 -Recomendable mas no obligatorio usar Anaconda con su entorno jupyter.
 
--Se incluyen lineas de instalación de dependencias minimas dentro del ipynb.
+-Se incluyen lineas de instalación de dependencias minimas dentro del AgenteLLM_Final.ipynb.
 
--Unicamente es necesario ejecutar el primero bloque de código del ipynb para el funcionamiento del agente.
+-Unicamente es necesario ejecutar el primero bloque de código del AgenteLLM_Final.ipynb para el funcionamiento del agente.
