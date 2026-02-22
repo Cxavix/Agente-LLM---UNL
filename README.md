@@ -1,4 +1,4 @@
-# Agente-LLM---UNL
+# Agente-LLM
 Es necesario descargar el modelo mistral - (mistral-7b-instruct-v0.2.Q4_K_M.gguf) de la página de huggingface
 
 Link: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/blob/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf
